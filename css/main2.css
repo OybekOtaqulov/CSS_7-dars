@@ -1,0 +1,57 @@
+.wrap{
+    width: 1200px;
+    margin: 100px auto;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+}
+.menu-item{
+    width: 100px;
+    height: 40px;
+    background-image: url("../rasmlar/06.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    float: left;
+    margin-left: 100px;
+}
+.menu-item:nth-child(1){
+    background-position: -100px -220px;
+    float: left;
+}
+.menu-item:nth-child(1) h2{
+    margin-top: -50px;
+    margin-left: 5px;
+}
+.menu-item:nth-child(2){
+    background-position: -230px -220px;
+    float: left;
+}
+.menu-item:nth-child(2) h2{
+    margin-top: -50px;
+    margin-left: 25px;
+}
+.menu-item:nth-child(3){
+    background-position: -350px -220px;
+    float: left;
+}
+.menu-item:nth-child(3) h2{
+    margin-top: -50px;
+    margin-left: -5px;
+}
+.menu-item:nth-child(4){
+    background-position: -490px -220px;
+    float: left;
+}
+.menu-item:nth-child(4) h2{
+    margin-top: -50px;
+    margin-left: 10px;
+}
+.menu-item:nth-child(5){
+    background-position: -620px -220px;
+    float: left;
+}
+.menu-item:nth-child(5) h2{
+    margin-top: -50px;
+}
+
